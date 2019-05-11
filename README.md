@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## Welcome to My GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/Reckon1905/resume/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+###  Reckon1905
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+毕业院校 ：西安建筑科技大学
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+| 2015-2016 |   北京tt家族科技有限公司   |
+| :-------: | :------------------------: |
+| 2016-2017 | 北京乾正隆文化交流有限公司 |
+| 2017-至今 |  北京联合智云科技有限公司  |
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Reckon1905/resume/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
