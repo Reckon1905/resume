@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Practice</title>
+</head>
+<body>
+
+<div class="form">
+    <form action="xxx.com" method="post">
+
+        <div class="username">
+            <label for="id_username">姓名：
+                <input id="id_username" name="username" type="text" placeholder="请输入姓名">
+            </label>
+        </div>
+
+        <div class="username">密码：
+            <label for="id_username">
+                <input id="id_password" name="password" type="password" placeholder="请输入密码">
+            </label>
+        </div>
+
+        <div class="gender">
+            <label>性别：
+                <input name="gender" type="radio" value="male"> 男
+                <input name="gender" type="radio" value="female"> 女
+            </label>
+        </div>
+
+        <div class="sex_ori">
+            <label>取向：
+                <input type="radio" name="sex_ori" value="male"> 男
+                <input type="radio" name="sex_ori" value="female"> 女
+            </label>
+        </div>
+
+        <div class="hobby">
+            <label>爱好:
+                <input name="hobby" value="dota" type="checkbox"> dota
+                <input name="hobby" value="travel" type="checkbox"> 旅游
+                <input name="hobby" value="pet" type="checkbox"> 宠物
+            </label>
+        </div>
+
+        <div class="comment">
+            评论:
+            <textarea rows="5" cols="30" name="comment">
+                请输入评论
+            </textarea>
+        </div>
+
+        <div class="my_car">
+            <label for="id_mycar">我的 car:
+                <select name="mycar" id="id_mycar">
+                    <option name="mycar" value="bench">奔驰</option>
+                    <option name="mycar" value="BMW">宝马</option>
+                    <option name="mycar" value="BYD">比亚迪</option>
+                </select>
+            </label>
+
+            <input type="submit">
+        </div>
+
+    </form>
+</div>
+
+
+</body>
+</html>
