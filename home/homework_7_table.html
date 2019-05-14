@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        .table-container {
+            margin-top: 20px;
+            color: black;
+        }
+
+        .table-container > .table {
+            margin: 0 auto;
+        }
+
+        .table-container .table td {
+            width: 140px;
+            padding: 6px 15px;
+        }
+
+        .table-container .table > thead {
+            font-weight: bold;
+        }
+
+        /*奇数行*/
+        .table-container > .table > tbody > tr:nth-child(odd) {
+            background-color: #f1f1f1;
+        }
+
+        /*偶数行*/
+        .table-container > .table > tbody > tr:nth-child(even) {
+            background-color: white;
+        }
+
+        .table-container > .table.table1 > thead {
+            background-color: #69aa5f;
+            color: white;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<div class="layout">
+    <div class="table-container">
+        <table class="table table1">
+            <thead>
+            <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>Points</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>Adam</td>
+                <td>Johnson</td>
+                <td>67</td>
+            </tr>
+            <tr>
+                <td>Bo</td>
+                <td>Nilson</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Mike</td>
+                <td>Rose</td>
+                <td>35</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-container">
+        <table class="table table2">
+            <thead>
+            <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>Points</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>Adam</td>
+                <td>Johnson</td>
+                <td>67</td>
+            </tr>
+            <tr>
+                <td>Bo</td>
+                <td>Nilson</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Mike</td>
+                <td>Rose</td>
+                <td>35</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
