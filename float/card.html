@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Card</title>
+
+    <style>
+        @font-face {
+            font-family: 'iconfont';  /* project id 1192672 */
+            src: url('//at.alicdn.com/t/font_1192672_kj4trx24yuo.eot');
+            src: url('//at.alicdn.com/t/font_1192672_kj4trx24yuo.eot?#iefix') format('embedded-opentype'),
+            url('//at.alicdn.com/t/font_1192672_kj4trx24yuo.woff2') format('woff2'),
+            url('//at.alicdn.com/t/font_1192672_kj4trx24yuo.woff') format('woff'),
+            url('//at.alicdn.com/t/font_1192672_kj4trx24yuo.ttf') format('truetype'),
+            url('//at.alicdn.com/t/font_1192672_kj4trx24yuo.svg#iconfont') format('svg');
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: #e7ffe7;
+        }
+
+        .card-container {
+            margin: 0 auto;
+            width: 550px;
+        }
+
+        .card-container > .card {
+            border-radius: 4px;
+            margin: 20px;
+        }
+
+        .card-container .title {
+            float: left;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+
+        .card-container .close {
+            font-family: iconfont;
+            float: right;
+            padding-right: 10px;
+            padding-top: 10px;
+            font-size: 16px;
+        }
+
+        .card-container .close::before {
+            content: "\e643";
+        }
+
+
+        .card-container .disc {
+            clear: both;
+            padding-left: 10px;
+            padding-top: 20px;
+            padding-bottom: 15px;
+            font-size: 14px;
+        }
+
+        .card.style1 {
+            background: #69aa5f;
+        }
+
+        .card.style2 {
+            background: #4696ec;
+        }
+
+        .card.style3 {
+            background: #e25141;
+        }
+
+        .card.style4 {
+            background: #f29c38;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="card-container">
+    <div class="card style1">
+        <h2 class="title">恭喜你</h2>
+        <p class="close"></p>
+        <p class="disc">获得本周学霸，继续加油吧</p>
+    </div>
+    <div class="card style2">
+        <h2 class="title">通知</h2>
+        <p class="close"></p>
+        <p class="disc">晚上上课，不要忘了</p>
+    </div>
+    <div class="card style3">
+        <h2 class="title">天啊</h2>
+        <p class="close"></p>
+        <p class="disc">竟然几天没做任务</p>
+    </div>
+    <div class="card style4">
+        <h2 class="title">警告</h2>
+        <p class="close"></p>
+        <p class="disc">学如逆水行舟，不进则退</p>
+    </div>
+</div>
+
+</body>
+</html>

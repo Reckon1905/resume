@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            text-decoration: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .navigation {
+            width: 480px;
+            margin: 10px auto;
+            box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.4);
+            border-radius: 2px;
+        }
+
+        .navigation::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .navigation > ul > li {
+            display: inline-block;
+            float: left;
+            position: relative;
+        }
+
+        .navigation .tab {
+            min-width: 50px;
+            display: block;
+            padding: 5px 8px;
+        }
+
+        .navigation .tab:hover {
+            color: white;
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        .navigation .content {
+            position: absolute;
+            box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.3);
+            top: 100%;
+            display: none;
+        }
+
+        .navigation > ul > li:hover .content{
+            display: block;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="navigation">
+    <ul>
+        <li><a class="tab" href="#">首页</a></li>
+        <li><a class="tab" href="#">作品</a></li>
+        <li>
+            <a class="tab" href="#">更多</a>
+            <ul class="content">
+                <li><a class="tab" href="#">前端</a></li>
+                <li><a class="tab" href="#">后端</a></li>
+                <li><a class="tab" href="#">移动端</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
