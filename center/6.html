@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .layout {
+            margin: 0 auto;
+            border: #e25141 1px solid;
+            width: 700px;
+            height: 600px;
+            text-align: center;
+        }
+
+        .layout > .content {
+            display: inline-block;
+            text-align: center;
+            width: 300px;
+            height: 200px;
+            vertical-align: middle;
+        }
+
+        .layout::before {
+            display: inline-block;
+            vertical-align: middle;
+            content: "";
+            height: 100%;
+        }
+
+        .layout img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="layout">
+    <div class="content">
+        <img src="https://media.npr.org/assets/img/2019/05/15/200570_custom-a55c538cbf46ea89dded40334c056b189f899b4a-s1100-c15.jpg"
+             alt="food">
+    </div>
+</div>
+</body>
+</html>

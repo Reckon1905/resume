@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Scenery</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .layout {
+            margin: 0 auto;
+            width: 800px;
+            overflow: hidden;
+        }
+
+
+        .layout .head {
+            text-align: center;
+        }
+
+        .layout > .line {
+            color: #666;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .card-container .card {
+            width: 260px;
+            float: left;
+            text-align: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+            margin-right: 10px;
+            margin-top: 30px;
+        }
+        
+        .card-container>ul{
+            margin-right: -20px;
+        }
+
+        .layout::after {
+            clear: both;
+            content: "";
+            display: block;
+        }
+
+        .card-container .card > .pic {
+            width: 100%;
+            opacity: 0.7;
+        }
+
+        .card-container .card > p {
+            font-size: 17px;
+            display: inline-block;
+            margin: 23px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="layout">
+    <div class="head">
+        <h1>风景列表</h1>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="card-container">
+        <ul>
+            <li class="card">
+                <img class="pic" src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景图片">
+                <p>风景如画</p>
+            </li>
+            <li class="card">
+                <img class="pic" src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景图片">
+                <p>风景如画</p>
+            </li>
+            <li class="card">
+                <img class="pic" src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景图片">
+                <p>风景如画</p>
+            </li>
+            <li class="card">
+                <img class="pic" src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景图片">
+                <p>风景如画</p>
+            </li>
+            <li class="card">
+                <img class="pic" src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景图片">
+                <p>风景如画</p>
+            </li>
+            <li class="card">
+                <img class="pic" src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景图片">
+                <p>风景如画</p>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+
+</body>
+</html>

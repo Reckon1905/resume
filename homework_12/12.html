@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .bubble1 {
+            position: relative;
+            display: inline-block;
+            width: 300px;
+            height: 100px;
+            border: #cccccc 1px solid;
+            background: #ffeb3b;
+            border-radius: 3px;
+        }
+
+        .bubble1::before {
+            position: absolute;
+            border-left: #cccccc 1px solid;
+            border-top: #cccccc 1px solid;
+            background: #ffeb3b;
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            top: -6px;
+            left: 15px;
+            transform: rotateZ(45deg);
+            content: '';
+        }
+
+        .bubble2 {
+            position: relative;
+            display: inline-block;
+            width: 300px;
+            height: 100px;
+            border: #cccccc 1px solid;
+            background: #f29c38;
+        }
+
+        .bubble2::before {
+            position: absolute;
+            display: inline-block;
+            width: 0;
+            height: 0;
+            top: 0;
+            right: 0;
+            content: '';
+            border-top: red solid 8px;
+            border-right: red solid 8px;
+            border-bottom: transparent solid 8px;
+            border-left: transparent solid 8px;
+        }
+
+        .bubble3 {
+            position: relative;
+            display: inline-block;
+            width: 300px;
+            height: 100px;
+            border: #cccccc 1px solid;
+            background: mediumpurple;
+        }
+
+        .bubble3::before {
+            position: absolute;
+            display: inline-block;
+            width: 0;
+            height: 0;
+            top: -16px;
+            left: 8px;
+            content: '';
+            border-top: transparent solid 8px;
+            border-right: transparent solid 8px;
+            border-bottom: red solid 8px;
+            border-left: transparent solid 8px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="bubble1"></div>
+<div class="bubble2"></div>
+<div class="bubble3"></div>
+
+</body>
+</html>

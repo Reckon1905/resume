@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>3</title>
+
+    <style>
+        .layout::after {
+            clear: both;
+            content: "";
+            display: block;
+        }
+
+        .layout > .aside {
+            float: left;
+            width: 200px;
+            height: 400px;
+            background: #69aa5f;
+        }
+
+        .layout > .menu {
+            float: right;
+            width: 200px;
+            height: 400px;
+            background: #ffeb3b;
+        }
+
+        .layout > .main {
+            background: blueviolet;
+            margin-left: 210px;
+            margin-right: 210px;
+            height: 800px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="layout">
+    <div class="aside"></div>
+    <div class="menu"></div>
+    <div class="main"></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        .layout {
+            background: #cccccc;
+            text-align: center;
+            height: 500px;
+        }
+
+        .layout::after {
+            display: inline-block;
+            height: 100%;
+            content: "";
+            vertical-align: middle;
+        }
+
+        .layout > .content {
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .layout > .content > .btn {
+            text-align: center;
+            float: left;
+            margin: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 18px;
+            background: #ffeb3b;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="layout">
+    <div class="content">
+        <div class="btn">按钮1</div>
+        <div class="btn">按钮2</div>
+        <div class="btn">按钮3</div>
+    </div>
+</div>
+
+</body>
+</html>
